@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Offering Stages" max_length="40" name="x_snc_gtm_offering_offering_stages" sizeclass="14" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Asset Repository Link" max_length="1024" name="asset_repository_link" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Binoy Gosalia approval" max_length="40" name="binoy_gosalia_approval" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="BoM Requirements" max_length="141" name="bom_requirements" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Buyer Persona" max_length="40" name="buyer_persona" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Deadline /EoQ" max_length="40" name="deadline_eoq" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Industry" max_length="40" name="industry" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Launch Quarter" max_length="40" name="launch_quarter" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Launch Status" max_length="40" name="launch_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1. Initiate " value="1_initiate"/>
+                <element inactive_on_update="false" label="2. Gather" value="2_gather"/>
+                <element inactive_on_update="false" label="3. Build" value="3_build"/>
+                <element inactive_on_update="false" label="4. Launch" value="4_launch"/>
+                <element inactive_on_update="false" label="Green" sequence="0" value="Green"/>
+                <element inactive_on_update="false" label="Yellow" sequence="0" value="Yellow"/>
+            </choice>
+        </element>
+        <element label="MBO Approval" max_length="40" name="mbo_approval" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Modified" max_length="40" name="modified" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Modified By" max_length="40" name="modified_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offering ID" max_length="40" name="offering_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offering Lead" max_length="40" name="offering_lead" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Offering Name" max_length="40" name="offering_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Partner" max_length="40" name="partner" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pillar Lead" max_length="40" name="pillar_lead" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pillar Lead approval" max_length="40" name="pillar_lead_approval" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SSC" max_length="40" name="ssc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Stage" max_length="40" name="stage" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Store" max_length="40" name="store" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Target Accounts (5 Min.)" max_length="199" name="target_accounts_5_min" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Target GEO / Region" max_length="40" name="target_geo_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Workflow" max_length="40" name="workflow" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Creator" value="creator"/>
+                <element inactive_on_update="false" label="Customer" value="customer"/>
+                <element inactive_on_update="false" label="Employee" value="employee"/>
+                <element inactive_on_update="false" label="Technology" value="technology"/>
+                <element inactive_on_update="false" label="Build &amp; Automate" sequence="0" value="Build &amp; Automate"/>
+                <element inactive_on_update="false" label="Customer Experience" sequence="0" value="Customer Experience"/>
+                <element inactive_on_update="false" label="Employee Experience" sequence="0" value="Employee Experience"/>
+                <element inactive_on_update="false" label="Operating Excellence" sequence="0" value="Operating Excellence"/>
+                <element inactive_on_update="false" label="Technology Excellence" sequence="0" value="Technology Excellence"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Workflows Included" max_length="32" name="workflows_included" reference="wf_workflow" type="reference"/>
+        <index name="index">
+            <element name="workflows_included"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

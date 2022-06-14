@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>u_bom_requirements-FieldValue</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-08 01:32:40</sys_created_on>
+        <sys_id>4d64ca444704951000c5c472846d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_bom_requirements-FieldValue</sys_name>
+        <sys_package display_value="GTM Offerings" source="x_snc_gtm_offering">271c718c47c0951000c5c472846d43c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GTM Offerings">271c718c47c0951000c5c472846d43c2</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_4d64ca444704951000c5c472846d43db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-08 01:32:40</sys_updated_on>
+        <view_config display_value="Gtm Offering 1654650507842 Detail Screen View Config">c164ca444704951000c5c472846d43c6</view_config>
+        <view_template_slot display_value="text_07">e87845b041275010f877183fc9b8be13</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

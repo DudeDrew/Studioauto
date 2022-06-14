@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Gtm Offering 1654650507842" max_length="40" name="x_snc_gtm_offering_1654650507842" sizeclass="14" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Asset Repository Link" label="Asset Repository Link" max_length="40" name="u_asset_repository_link" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Binoy Gosalia approval" label="Binoy Gosalia approval" max_length="40" name="u_binoy_gosalia_approval" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=BoM Requirements" label="BoM Requirements" max_length="141" name="u_bom_requirements" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Buyer Persona" label="Buyer Persona" max_length="40" name="u_buyer_persona" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Deadline /EoQ" label="Deadline /EoQ" max_length="40" name="u_deadline__eoq" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Industry" label="Industry" max_length="40" name="u_industry" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Launch Quarter" label="Launch Quarter" max_length="40" name="u_launch_quarter" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Launch Status" label="Launch Status" max_length="40" name="u_launch_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=MBO Approval" label="MBO Approval" max_length="40" name="u_mbo_approval" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Modified" label="Modified" max_length="40" name="u_modified" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Modified By" label="Modified By" max_length="40" name="u_modified_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Offering Lead" label="Offering Lead" max_length="40" name="u_offering_lead" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Offering Name" label="Offering Name" max_length="40" name="u_offering_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Partner" label="Partner" max_length="40" name="u_partner" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pillar Lead" label="Pillar Lead" max_length="40" name="u_pillar_lead" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pillar Lead approval" label="Pillar Lead approval" max_length="40" name="u_pillar_lead_approval" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=SSC" label="SSC" max_length="40" name="u_ssc" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Stage" label="Stage" max_length="40" name="u_stage" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Store" label="Store" max_length="40" name="u_store" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Target Accounts (5 Min.)" label="Target Accounts (5 Min.)" max_length="199" name="u_target_accounts__5_min__" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Target GEO / Region" label="Target GEO / Region" max_length="40" name="u_target_geo___region" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Workflow" label="Workflow" max_length="40" name="u_workflow" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Workflows Included" label="Workflows Included" max_length="40" name="u_workflows_included" type="string"/>
+    </element>
+</database>

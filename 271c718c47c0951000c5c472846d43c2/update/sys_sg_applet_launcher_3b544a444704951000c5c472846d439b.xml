@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>GTM Offerings</name>
+        <required_roles>admin,user,action_designer,application_owner,approval_admin</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-08 01:32:34</sys_created_on>
+        <sys_id>3b544a444704951000c5c472846d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GTM Offerings</sys_name>
+        <sys_package display_value="GTM Offerings" source="x_snc_gtm_offering">271c718c47c0951000c5c472846d43c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GTM Offerings">271c718c47c0951000c5c472846d43c2</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_3b544a444704951000c5c472846d439b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-08 01:32:34</sys_updated_on>
+        <title>GTM Offerings</title>
+    </sys_sg_applet_launcher>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Edit (Offering Stages)</name>
+        <parameter_screen/>
+        <query_condition table="x_snc_gtm_offering_offering_stages">sys_idSTARTSWITH{{Offering Stages sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{Offering Stages sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-08 01:32:37</sys_created_on>
+        <sys_id>2464ca444704951000c5c472846d4384</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Edit (Offering Stages)</sys_name>
+        <sys_package display_value="GTM Offerings" source="x_snc_gtm_offering">271c718c47c0951000c5c472846d43c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GTM Offerings">271c718c47c0951000c5c472846d43c2</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_2464ca444704951000c5c472846d4384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-08 01:32:38</sys_updated_on>
+        <table>x_snc_gtm_offering_offering_stages</table>
+        <template>asset_repository_link={{Offering Stages asset_repository_link}}^binoy_gosalia_approval={{Offering Stages binoy_gosalia_approval}}^bom_requirements={{Offering Stages bom_requirements}}^buyer_persona={{Offering Stages buyer_persona}}^deadline_eoq={{Offering Stages deadline_eoq}}^industry={{Offering Stages industry}}^launch_quarter={{Offering Stages launch_quarter}}^launch_status={{Offering Stages launch_status}}^mbo_approval={{Offering Stages mbo_approval}}^modified={{Offering Stages modified}}^modified_by={{Offering Stages modified_by}}^number={{Offering Stages number}}^offering_id={{Offering Stages offering_id}}^offering_lead={{Offering Stages offering_lead}}^offering_name={{Offering Stages offering_name}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=2464ca444704951000c5c472846d4384"/>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Gtm Offering 1654650507842)">d964ca444704951000c5c472846d43ec</button>
+        <item_parameter display_value="Gtm Offering 1654650507842 u_industry">d964ca444704951000c5c472846d43e8</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-08 01:32:40</sys_created_on>
+        <sys_id>d564ca444704951000c5c472846d43f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d964ca444704951000c5c472846d43e8</sys_name>
+        <sys_package display_value="GTM Offerings" source="x_snc_gtm_offering">271c718c47c0951000c5c472846d43c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GTM Offerings">271c718c47c0951000c5c472846d43c2</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_d564ca444704951000c5c472846d43f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-08 01:32:40</sys_updated_on>
+        <ui_parameter display_value="Industry">d564ca444704951000c5c472846d43f0</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

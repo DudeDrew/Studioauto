@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Offering Stages)">e464ca444704951000c5c472846d432d</button>
+        <item_parameter display_value="Offering Stages bom_requirements">1064ca444704951000c5c472846d4327</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-08 01:32:37</sys_created_on>
+        <sys_id>6464ca444704951000c5c472846d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1064ca444704951000c5c472846d4327</sys_name>
+        <sys_package display_value="GTM Offerings" source="x_snc_gtm_offering">271c718c47c0951000c5c472846d43c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GTM Offerings">271c718c47c0951000c5c472846d43c2</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_6464ca444704951000c5c472846d4354</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-08 01:32:37</sys_updated_on>
+        <ui_parameter display_value="BoM Requirements">6064ca444704951000c5c472846d4330</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
